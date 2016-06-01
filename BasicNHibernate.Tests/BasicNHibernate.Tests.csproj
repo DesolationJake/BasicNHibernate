@@ -60,12 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="hibernate.cfg.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NHibernateFirst\BasicNHibernate.csproj">
+    <ProjectReference Include="..\BasicNHibernate\BasicNHibernate.csproj">
       <Project>{40fc02f8-ad71-4494-8d99-9cc9a0cdeb9b}</Project>
       <Name>BasicNHibernate</Name>
     </ProjectReference>
